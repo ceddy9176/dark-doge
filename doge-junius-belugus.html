@@ -3,31 +3,38 @@
   <head>
     <meta charset="utf-8">
     <title>All About Doge</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/styles.css">
   </head>
-  <body style="font-family:Arial;">
-    <h1 style="text-align:center">Hey, there! Welcome to my doge blog!</h1>
-    <img src="pug face.jpg" alt="the most beautiful pug face ever" style="border-radius:50%;margin:auto;display:block;">
-    <h2>Bio:</h2>
-    <p>Interesting things about me!</p>
-    <ul>
-      <li>I was born in the third circle of Hell</li>
-      <li>I'm 666 years old. And always will be.</li>
-      <li>I smell terrible</li>
-    </ul>
-    <h2>Things I hate:</h2>
-    <p>I can't even--</p>
-    <ol>
-      <li>Birds</li>
-      <li>Anything that jingles</li>
-      <li>People walking with things in their hands</li>
-    </ol>
-    <h2>Things I love:</h2>
-    <ul>
-      <li>The peanut butter</li>
-      <li>Licking parts of things</li>
-      <li>Other deformed smoosh faces. You know, kin.</li>
-    </ul>
-    <a href="http://goodmorningkitten.com/">Visit my favorite Dark Arts webpage here!</a>
-  </body>
+    <body style="font-family:Arial;">
+      <div id="mode-change">
+        <h1 style="text-align:center">Hey, there! Welcome to my doge blog!</h1>
+        <img id="pugpic" src="pug-face.jpg" alt="the most beautiful pug face ever" style="border-radius:50%;margin:auto;display:block;">
+
+        <button onClick = "toggleNightMode()" id="toggleButton">Night Mode</button>
+        <h2>Bio:</h2>
+        <p>Interesting things about me!</p>
+        <ul>
+          <li>I was born in the third circle of Hell</li>
+          <li>I'm 666 years old. And always will be.</li>
+          <li>I smell terrible</li>
+        </ul>
+        <h2>Things I hate:</h2>
+        <p>I can't even--</p>
+        <ol>
+          <li>Birds</li>
+          <li>Anything that jingles</li>
+          <li>People walking with things in their hands</li>
+        </ol>
+        <h2>Things I love:</h2>
+        <ul>
+          <li>The peanut butter</li>
+          <li>Licking parts of things</li>
+          <li>Other deformed smoosh faces. You know, kin.</li>
+        </ul>
+        <a href="http://goodmorningkitten.com/">Visit my favorite Dark Arts webpage here!</a>
+      </div>
+    <script src="js/jquery-3.2.1.js"></script>
+    <script src="js/scripts.js"></script>
+    </body>
 </html>
